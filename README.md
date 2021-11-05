@@ -2,9 +2,9 @@
 
 golang 1.14.12环境
 
-DockerFile 构建命令： docker build -t gocn .
+DockerFile 构建命令： docker build -t godev .
 
-镜像启动： docker run -v 文件夹:/home -it gocn bash
+镜像启动： docker run -v 文件夹:/home -it godev bash
 
 镜像上传：
     docker ps
